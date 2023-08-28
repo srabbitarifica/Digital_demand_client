@@ -7,7 +7,7 @@ export const signupApi = (
   setToastMessage: (value: string) => void
 ) => {
   return axios
-    .post("https://servertemp.azurewebsites.net/signup", {
+    .post("https://serverd.azurewebsites.net/signup", {
       username,
       email,
       password,
