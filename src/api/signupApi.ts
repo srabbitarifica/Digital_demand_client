@@ -7,7 +7,7 @@ export const signupApi = (
   setToastMessage: (value: string) => void
 ) => {
   return axios
-    .post(`${process.env.NEXT_PUBLIC_API_URL}signup`, {
+    .post("https://servertemp.azurewebsites.net/signup", {
       username,
       email,
       password,
