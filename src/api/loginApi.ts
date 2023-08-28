@@ -10,7 +10,7 @@ export const loginApi = (
   console.log("API URL:", apiUrl); // Log the API URL
 
   return axios
-    .post("https://servertemp.azurewebsites.net/login", {
+    .post(`${process.env.NEXT_PUBLIC_API_URL}login`, {
       username,
       password,
     })
