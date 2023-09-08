@@ -7,7 +7,7 @@ export const loginApi = (
   router: any
 ) => {
   //const apiUrl = `${process.env.NEXT_PUBLIC_API_URL}login`;
-  const apiUrl ="https://servertemp.azurewebsites.net/login";
+  const apiUrl ="https://serverd.azurewebsites.net/login";
   console.log("API URL:", apiUrl); // Log the API URL
 
   return axios
