@@ -6,8 +6,8 @@ export const loginApi = (
   setToastMessage: (value: string) => void,
   router: any
 ) => {
-  const apiUrl = `${process.env.NEXT_PUBLIC_API_URL}login`;
-  const apiUrl2 ="https://servertemp.azurewebsites.net/login"
+  //const apiUrl = `${process.env.NEXT_PUBLIC_API_URL}login`;
+  const apiUrl2 ="https://servertemp.azurewebsites.net/login";
   console.log("API URL:", apiUrl); // Log the API URL
 
   return axios
