@@ -1,5 +1,5 @@
 import axios from "axios";
-
+// https://serverd.azurewebsites.net/signup
 export const signupApi = (
   username: string,
   password: string,
@@ -7,7 +7,7 @@ export const signupApi = (
   setToastMessage: (value: string) => void
 ) => {
   return axios
-    .post("https://serverd.azurewebsites.net/signup", {
+    .post("https://serverdashboardtest.azurewebsites.net/signup", {
       username,
       email,
       password,
